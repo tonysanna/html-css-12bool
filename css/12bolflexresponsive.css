@@ -1,0 +1,11 @@
+@media screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+    
+    .col-sm {
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: 100%;
+    }
+}
