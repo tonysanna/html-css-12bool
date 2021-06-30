@@ -10,15 +10,19 @@
     margin: 0 auto;
 }
 
-/* .container-fluid {
+.container-fluid {
     width: 100%;
     max-width: 100%;
-} */
+}
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+[class*="col-"] {
+    flex: 0 0 auto;
 }
 
 .col-xs-1 {
